@@ -2,7 +2,7 @@
 	<f:entry title="${%Branch Name}" field="branchName">
 		<f:textbox value="${instance.branchName}" default="master"/>
 	</f:entry>
-	<f:entry title="${%Pull requests}" field="pullRequestMatchOriginName">
+	<f:entry title="${%Match against Pull Request origin}" field="pullRequestMatchOriginName">
 		<f:checkbox checked="${instance.pullRequestMatchOrigin}"/>
 	</f:entry>
 	<f:entry title="${%Priority}" field="priority">
